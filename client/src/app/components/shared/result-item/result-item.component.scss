@@ -1,0 +1,44 @@
+.numbers {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+
+    &-white {
+        background-color: #fff;
+        color: black;
+    }
+    &-powerball {
+        background-color: red;
+        color: white;
+    }
+    &-megaball {
+        background-color: yellow;
+        color: white;
+    }
+}
+
+.numbers::after{
+    background-color: rgba(255,255,255,.5);
+    content:'';
+    height:50%;
+    width: 20%;
+    left:18%;
+    top:0%;
+    position:absolute;
+    border-radius:50%;
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width: 768px) {
+    .numbers {
+        width: 45px;
+        height: 45px;
+    }
+}

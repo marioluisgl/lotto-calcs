@@ -1,0 +1,105 @@
+.language-select {
+    position: relative;
+    width: 54px;
+    margin-left: 10px;
+
+    &--text {
+        padding-left: 3px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        position: relative;
+        top: -1px;
+    }
+
+    .language-container-display {
+
+        @-webkit-keyframes langAnim {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+                margin-top: 5px;
+            }
+        }
+
+        @-moz-keyframes langAnim {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+                margin-top: 5px;
+            }
+        }
+
+        @-ms-keyframes langAnim {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+                margin-top: 5px;
+            }
+        }
+
+        @-o-keyframes langAnim {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+                margin-top: 5px;
+            }
+        }
+
+        @keyframes langAnim {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+                margin-top: 5px;
+            }
+        }
+
+        .flag {
+            opacity: 0;
+            width: 44px;
+            height: 25px;
+            margin-top: 5px;
+            animation: 0.4s langAnim;
+            animation-fill-mode: forwards;
+            -webkit-animation-name: langAnim;
+            -webkit-animation-fill-mode: forwards;
+        }
+    }
+
+    li.flag {
+        text-align: center;
+        right: 10px;
+        top: 0;
+        cursor: pointer;
+        position: absolute;
+    }
+}
+
+.flag-image {
+    width: 35px;
+    margin-right: 3px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 900px) {
+    .language-select {
+        width: 53px;
+    }
+}

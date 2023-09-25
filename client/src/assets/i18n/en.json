@@ -1,0 +1,36 @@
+{
+    "LanguageNames": {
+        "en": "English",
+        "es": "Spanish"
+    },
+    "Titles": {
+        "powerballMetrics": "Powerball Metrics",
+        "megamillionMetrics": "Megamillions Metrics",
+        "welcome": "¡Lottery metrics app!",
+        "welcomeSubtitle": "Please, write down your name and select your gender."
+    },
+   
+    "Labels": {
+        "all": "All",
+        "coldNumbers": "cold winning numbers",
+        "female": "Female",
+        "hotNumbers": "Hot winning numbers",
+        "hotTens": "The hottest tens",
+        "male": "Male",
+        "megamillion": "Megamillions results",
+        "name": "Name",
+        "powerball": "Powerball results",
+        "rangeSum": "Winning draws (range sum)",
+        "updated": "Updated",
+        "winningBalls": "Winning balls"
+    },
+    "Placeholders": {
+        
+    },
+    "Buttons": {
+        "access": "Get access"
+    },
+    "Notifies": {
+        
+    }
+}

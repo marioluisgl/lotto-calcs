@@ -1,0 +1,61 @@
+<div class="flex justify-between items-center my-2">
+    <div class="flex items-center">
+        <mat-icon class="md-28 mr-1 c-red">calendar_month</mat-icon>
+        <span *ngIf="selectedPlay() && selectedPlay() === play.POWERBALL" 
+            class="text-purple-800 uppercase font-bold">{{'Labels.powerball' | translate}}</span>
+        <span *ngIf="selectedPlay() && selectedPlay() === play.MEGAMILLION" 
+            class="text-purple-800 uppercase font-bold">{{'Labels.megamillion' | translate}}</span>
+    </div>
+    <div>
+        <span class="text-normal italic font-bold pr-5">{{'Labels.updated' | translate}}: </span>
+        <span class="text-normal uppercase font-bold">AUG 15 2023</span>
+    </div>
+   
+</div>
+
+<mat-divider></mat-divider>
+
+<ng-container *ngIf="!loading(); else isLoading">
+    <app-filters-results />
+
+    <div class="mt-2 mb-4 height
+        overscroll-y-auto 
+        overflow-auto
+        relative"
+    >
+    
+            <div class="flex justify-center pt-2">
+                <p matBadge="{{totalResults()}}" matBadgeSize="medium" class="font-bold uppercase">
+                    Total
+                </p>
+            </div>
+            <ng-container *ngIf="results().length; else noResults">
+                <div *ngFor="let data of results(); let cnt = count; let i = index;"
+                    class="shadow-md bg-gray-100 hover:bg-gray-200 relative m-1 p-2 mb-3">
+                    <div class="p-1 index-item flex 
+                        items-center 
+                        justify-center rounded-full 
+                        md:absolute">
+                        <span class="font-bold">{{cnt - i}}</span>
+                    </div>
+                    <app-result-item [ball]="data.ball" [numbers]="data.numbers"/>
+                </div>
+            </ng-container>
+            
+            <ng-template #noResults>
+                <h3 class="text-md italic text-center">There is not results!</h3>
+            </ng-template>
+
+    </div>
+</ng-container>
+<ng-template #isLoading>
+    <div class="flex justify-center items-center height">
+        <div class="spinner">
+            <div class="bounce1 bg-purple-900"></div>
+            <div class="bounce2 bg-purple-900"></div>
+            <div class="bounce3 bg-purple-900"></div>
+        </div>
+    </div>
+</ng-template>
+
+

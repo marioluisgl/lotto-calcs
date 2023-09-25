@@ -1,0 +1,16 @@
+<div *ngIf="showLangMenu()" class="language-select active cursor-pointer">
+    <div (click)="displayLanguages()" class="flex-row--start">
+        <img [src]="currentLanguage().img" class="flag-image" />
+        <mat-icon class="font-bold md-12 ">expand_more</mat-icon>
+    </div>
+    <ng-container *ngIf="toSelect()">
+      <ul *ngFor="let option of languagesDynamic(); let i=index" class="language-container-display">
+        <li (click)="selectLanguage(option.value)" [ngStyle]="getStyle(i)" class="flag flex-row--start">
+            <img [src]="option.img" class="flag-image" />
+            <span class="text-black font-bold">{{ option.value }}</span>
+        </li>
+      </ul>
+    </ng-container>
+</div>
+  
+

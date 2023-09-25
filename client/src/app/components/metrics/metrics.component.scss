@@ -1,0 +1,65 @@
+
+.metric-header {
+    box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+    background-color: rgb(146 84 255);
+    color: white;
+}
+.numbers {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+
+    &-white {
+        background-color: #fff;
+        color: black;
+    }
+    &-powerball {
+        background-color: red;
+        color: white;
+    }
+    &-megaball {
+        background-color: yellow;
+        color: white;
+    }
+    &-tens-white {
+        width: 75px !important;
+        height: 75px !important;
+        background-color: #fff;
+        color: black;
+    }
+    &-tens-red {
+        width: 75px !important;
+        height: 75px !important;
+        background-color: red;
+        color: white;
+    }
+    &-tens-yellow {
+        width: 75px !important;
+        height: 75px !important;
+        background-color: yellow;
+        color: white;
+    }
+}
+
+.numbers::after{
+    background-color: rgba(255,255,255,.5);
+    content:'';
+    height:50%;
+    width: 15%;
+    left:18%;
+    top:0%;
+    position:absolute;
+    border-radius:50%;
+    transform: rotate(45deg);
+}
+
+.height {
+    height: 700px;
+}

@@ -1,0 +1,23 @@
+button,
+.btn {
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    transition: all 0.3s;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 50px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn--primary {
+    color: white;
+    background: rgb(63,81,181);
+    background: linear-gradient(90deg, rgba(63,81,181,1) 0%, rgba(109,42,237,0.8786108193277311) 100%, rgba(191,147,182,0) 100%);
+}
+
+button:hover,
+[class*="btn--"]:hover {
+    opacity: 0.8;
+}

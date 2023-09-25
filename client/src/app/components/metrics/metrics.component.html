@@ -1,0 +1,114 @@
+<div class="flex justify-between my-2">
+    <div class="flex items-center">
+        <mat-icon class="md-28 mr-1 c-red">candlestick_chart</mat-icon>
+        <span *ngIf="selectedPlay() && selectedPlay() === play.POWERBALL" 
+            class="text-purple-800 uppercase font-bold">{{'Titles.powerballMetrics' | translate}}</span>
+        <span *ngIf="selectedPlay() && selectedPlay() === play.MEGAMILLION" 
+            class="text-purple-800 uppercase font-bold">{{'Titles.megamillionMetrics' | translate}}</span>
+    </div>
+</div>
+
+<mat-divider></mat-divider>
+
+<div *ngIf="!loading(); else isLoading" 
+    class="height overscroll-y-auto overflow-auto" 
+    [@enterOpacity]
+>
+
+    <!-- winning red balls -->
+    <div class="flex justify-center items-center mt-3 metric-header rounded-md">
+        <span class="uppercase font-bold py-2">{{'Labels.winningBalls' | translate}}</span>
+        <mat-icon class="md-28 ml-1 c-red">local_fire_department</mat-icon>
+    </div>
+     
+    <div class="flex justify-center p-5 ">
+        <div *ngFor="let item of fiveBalls()" class="flex-column-center">
+            <div class="rounded-full p-5 mx-3 numbers numbers-powerball shadow-2xl"
+                [ngClass]="{'numbers-megaball': selectedPlay() === play.MEGAMILLION}">
+                <span class="flex ">{{item.ball}}</span>
+            </div>
+            <span class="text-black font-bold text-base ">{{item.percent}}</span>
+        </div>
+    </div>
+    
+    <!-- Hot winning numbers -->
+    <div class="flex justify-center items-center mt-2 metric-header rounded-md">
+        <span class="uppercase font-bold py-2">{{'Labels.hotNumbers' | translate}}</span>
+        <mat-icon class="md-28 ml-1 c-red">whatshot</mat-icon>
+    </div>
+      
+    <div class="flex justify-center flex-wrap p-5 ">
+        <div *ngFor="let item of tenHotNumbers()" class="flex-column-center">
+            <div class="rounded-full p-5 mx-3 numbers numbers-white shadow-2xl">
+                <span class="flex ">{{item.ball}}</span>
+            </div>
+            <span class="text-black font-bold text-base ">{{item.percent}}</span>
+        </div>
+    </div>
+
+    <!-- Cold winning numbers -->
+    <div class="flex justify-center items-center mt-2 metric-header rounded-md">
+        <span class="uppercase font-bold py-2">{{'Labels.coldNumbers' | translate}}</span>
+        <mat-icon class="md-28 ml-1 c-ice">ac_unit</mat-icon>
+    </div>
+      
+    <div class="flex justify-center flex-wrap p-5 ">
+        <div *ngFor="let item of tenColdNumbers()" class="flex-column-center">
+            <div class="rounded-full p-5 mx-3 numbers numbers-white shadow-2xl">
+                <span class="flex ">{{item.ball}}</span>
+            </div>
+            <span class="text-black font-bold text-base ">{{item.percent}}</span>
+        </div>
+    </div>
+
+    <!-- Decenas mas populares -->
+    <div class="flex justify-center items-center mt-2 metric-header rounded-md">
+        <span class="uppercase font-bold py-2">{{'Labels.hotTens' | translate}}</span>
+        <mat-icon class="md-28 ml-1 c-red">local_fire_department</mat-icon>
+    </div>
+      
+    <div class="flex justify-center flex-wrap pt-5 pl-5 pr-5">
+        <div *ngFor="let item of decenasNumCounter()" class="flex-column-center">
+            <div class="rounded-full p-5 mx-3 numbers numbers-tens-white shadow-2xl">
+                <span class="flex text-xs">{{item.decenaText}}</span>
+            </div>
+            <span class="text-black font-bold text-base ">{{item.percent}}</span>
+        </div>
+    </div>
+
+    <div class="flex justify-center flex-wrap px-5 ">
+        <div *ngFor="let item of decenasBallsCounter()" class="flex-column-center">
+            <div class="rounded-full p-5 mx-3 numbers numbers-tens-red shadow-2xl"
+                [ngClass]="{'numbers-tens-yellow': selectedPlay() === play.MEGAMILLION}">
+                <span class="flex text-xs">{{item.decenaText}}</span>
+            </div>
+            <span class="text-black font-bold text-base ">{{item.percent}}</span>
+        </div>
+    </div>
+
+    <!-- Rangos de la suma de los 5 numeros donde mas sorteos ganadores hay -->
+    <div class="flex justify-center items-center mt-6 metric-header rounded-md">
+        <span class="uppercase font-bold py-2">{{'Labels.rangeSum' | translate}}</span>
+        <mat-icon class="md-28 ml-1 c-red">local_fire_department</mat-icon>
+    </div>
+      
+    <div class="flex justify-center flex-wrap pt-5 pl-5 pr-5">
+        <div *ngFor="let item of rangeSumFiveNumbers()" class="flex-column-center">
+            <div class="rounded-full p-5 mx-3 numbers numbers-tens-white shadow-2xl relative">
+                <span class="flex text-xs absolute">{{item.range}}</span>
+            </div>
+            <span class="text-black font-bold text-base ">{{item.percent}}</span>
+        </div>
+    </div>
+</div>
+
+<ng-template #isLoading>
+    <div class="flex justify-center items-center height">
+        <div class="spinner">
+            <div class="bounce1 bg-purple-900"></div>
+            <div class="bounce2 bg-purple-900"></div>
+            <div class="bounce3 bg-purple-900"></div>
+        </div>
+    </div>
+</ng-template>
+

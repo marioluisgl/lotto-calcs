@@ -1,0 +1,36 @@
+{
+    "LanguageNames": {
+        "en": "Inglés",
+        "es": "Español"
+    },
+    "Titles": {
+        "powerballMetrics": "Métricas del powerball",
+        "megamillionMetrics": "Métricas del megamillions",
+        "welcome": "¡Aplicación de métricas!",
+        "welcomeSubtitle": "Por favor, introduce tu nombre y selecciona tu género."
+    },
+   
+    "Labels": {
+        "all": "Todos",
+        "coldNumbers": "Números fríos ganadores",
+        "female": "Femenino",
+        "hotNumbers": "Números calientes ganadores",
+        "hotTens": "Decenas más populares",
+        "male": "Masculino",
+        "megamillion": "Resultados del megamillions",
+        "name": "Nombre",
+        "powerball": "Resultados del powerball",
+        "rangeSum": "Sorteos ganadores (rango/suma)",
+        "updated": "Actualizado",
+        "winningBalls": "Bolas ganadoras"
+    },
+    "Placeholders": {
+        
+    },
+    "Buttons": {
+        "access": "Acceder"
+    },
+    "Notifies": {
+        
+    }
+}

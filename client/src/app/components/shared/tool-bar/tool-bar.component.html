@@ -1,0 +1,23 @@
+<mat-toolbar color="primary" class="app-toolbar"
+  [ngClass]="{'app-toolbar-megaball': selectedPlay() === play.MEGAMILLION}">
+  <div class="logo" [@enterOpacity]>
+    <a routerLink="/dashboard/main">
+      <img [src]="selectedPlay() | imageLogo" alt="logo">
+    </a>
+  </div>
+  
+  <div class="flex-row--end">
+    <div *ngIf="authUser().id" class="flex-row--start">
+      <span class="text-base pr-2 font-bold display-none">{{authUser().name }}</span>
+      <div class="user-image">
+        <img [src]="authUser().gender | imageUser" 
+          alt="user-image"
+          class="image--small object-fit"
+        />
+      </div>
+      <mat-icon class="md-18 m-2 font-bold cursor-pointer" (click)="logout()">
+        logout</mat-icon>
+    </div>
+    <app-language/>
+  </div>
+</mat-toolbar>
