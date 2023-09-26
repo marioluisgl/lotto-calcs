@@ -1,33 +1,48 @@
+<div class="grid place-items-center" [@enterOpacity]>
+    <div class="grid grid-cols-1 md:grid-cols-2 mb-20 mt-10">
+        <div class="logo-card shadow-md bg-gray-50 
+            relative mt-10 md:mr-10 col-span-1 p-4
+            md:rounded-l-lg cursor-pointer"
+        >
+            <div class="flex-column-center w-64 h-32">
+                <a class="flex-column-center mb-3"
+                    [routerLink]="['/dashboard', 0]">
+                    <img [src]="'POWERBALL' | imageLogo" alt="logo">
+                </a>
+                <p class="text-sm italic font-bold text-red-500">click to see it.</p>
+            </div>
+        </div>
 
-<div class="relative flex justify-center items-center bg-gray-50 p-2 md:rounded-lg">
-    <div>
-        <span class="text-yellow-400 text-base font-bold">MEGAMILLION</span>
-        <mat-radio-button [value]="'MEGAMILLION'" (change)="onChangeRadio($event)"></mat-radio-button>
+        <div class="logo-card shadow-md bg-gray-50 
+            relative mt-10 md:ml-10 col-span-1 p-4 
+            md:rounded-r-lg cursor-pointer"        
+        >
+            <div class="flex-column-center w-64 h-32">
+                <a [routerLink]="['/dashboard', 1]" >
+                    <img [src]="'MEGAMILLION' | imageLogo" alt="logo">
+                </a>
+                <p class="text-sm italic font-bold text-blue-500">click to see it.</p>
+            </div>
+        </div>
+
+        
     </div>
-    <mat-divider [vertical]="true" class="divider"></mat-divider>
-    <div>
-        <mat-radio-button [value]="'POWERBALL'" 
-            (change)="onChangeRadio($event)" 
-            [checked]="true"></mat-radio-button>
-        <span class="text-red-800 text-base font-bold">POWERBALL</span>
+
+    <div class="md:mt-20 xs:mt-10 relative">
+        <div class="flex-column-center cursor-pointer"
+            (click)="goToAdmin()">
+            <mat-icon 
+                class="mdh-48
+                md-48 mr-1 
+                text-gray-500 
+                hover:text-orange-500 
+                cursor-pointer">
+                settings
+            </mat-icon>
+            <p class="text-sm text-gray-500 hover:text-orange-500">only for admins</p>
+        </div>
     </div>
 </div>
 
 
-<div class="grid grid-cols-1 md:grid-cols-3 " [@enterOpacity]>
-    <div class="shadow-md bg-gray-50 
-        relative m-1 col-span-2 p-2 
-        md:rounded-l-lg"
-    >
-        <app-powerball-results />
-    </div>
 
-    <div class="shadow-md bg-gray-50 
-        relative m-1 col-span-1 p-2 
-        md:rounded-r-lg"        
-    >
-        <app-metrics />
-    </div>
-
-    
-</div>

@@ -27,6 +27,10 @@ $md-list: 8, 12, 14, 16, 18, 20, 22, 24, 28, 30, 34, 36, 48, 60;
   .md-#{$md} {
     @include create-md(#{$md}px);
   }
+
+  .mdh-#{$md}:hover {
+    @include create-md(#{$md+10}px);
+  }
 }
 
 $d-list: 0, 5;

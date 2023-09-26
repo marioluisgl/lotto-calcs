@@ -14,12 +14,18 @@ export const routes: Routes = [
     loadComponent: () => import('./components/home/home.component'),
   },
   {
+    path: 'dashboard/:id',
+    title: 'Lotto - Dashboard',
+    canActivate: [AuthGuard],
+    loadComponent: () => import('./components/dashboard/dashboard.component'),
+  },
+  {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'auth',
+    redirectTo: 'home',
   },
   {
     path: '**',
-    redirectTo: 'library', // not found page
+    redirectTo: 'home', // or not found page 
   },
 ];
