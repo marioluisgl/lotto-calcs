@@ -21,9 +21,7 @@ export class LottoMetricsService {
   numbers = computed(() => this._results().map((item) => item.numbers));
 
   private _paginate = signal<IPaginator>({
-    page: 0,
-    itemsPerPage: 10,
-    next: true
+  
   });
 
   get paginate() {
@@ -31,15 +29,11 @@ export class LottoMetricsService {
   }
 
   nextPage(page: number) {
-    this._paginate.mutate((value) => {
-      value.page = page;
-    });
+   
   }
 
   setNext(next: boolean) {
-    this._paginate.mutate((value) => {
-      value.next = next;
-    });
+    
   }
 
   // Obtener las 5 ball rojas mas repetidas

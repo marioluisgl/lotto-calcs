@@ -1,0 +1,200 @@
+<div class="modal">
+
+    <div class="mat-dialog-header">
+
+        <div class="flex justify-between items-center my-5">
+
+            <div [mat-dialog-close]="false" class="btn--close">
+                <mat-icon class="md-24 fw--bold">close</mat-icon>
+            </div>
+
+            <div mat-dialog-title>
+                <div class="flex justify-center items-center">
+                    <mat-icon class="md-24">add</mat-icon>
+                    <span class="text-sm uppercase ">ADD DRAW</span>
+                    <a (click)="showImportBox = !showImportBox"
+                        class="text-sm uppercase ml-2 
+                        cursor-pointer 
+                        hover:text-purple-800
+                        hover:font-bold">/ OR IMPORT DRAWINGS
+                    </a>
+                </div>
+            </div>
+        </div>
+        <mat-divider></mat-divider>
+    </div>
+
+
+    <mat-dialog-content>
+
+        <div class="flex justify-center items-center m-4 border-b">
+
+            <form *ngIf="!showImportBox" [formGroup]="formAddDraw" class="mb-10">
+
+                <div class="flex justify-center items-center">
+
+                    <div class="numbers numbers-white shadow-2xl m-2">
+                        <input 
+                            formControlName="number1" 
+                            class="rounded-full text-center numbers outline-none" 
+                            type="text">
+                    </div>
+
+                    <div class="numbers numbers-white shadow-2xl m-2">
+                        <input 
+                            formControlName="number2" 
+                            class="rounded-full text-center numbers outline-none" 
+                            type="text">
+                    </div>
+
+                    <div class="numbers numbers-white shadow-2xl m-2">
+                        <input 
+                            formControlName="number3" 
+                            class="rounded-full text-center numbers outline-none" 
+                            type="text">
+                    </div>
+
+                    <div class="numbers numbers-white shadow-2xl m-2">
+                        <input 
+                            formControlName="number4" 
+                            class="rounded-full text-center numbers outline-none" 
+                            type="text">
+                    </div>
+
+                    <div class="numbers numbers-white shadow-2xl m-2">
+                        <input 
+                            formControlName="number5" 
+                            class="rounded-full text-center numbers outline-none" 
+                            type="text">
+                    </div>
+
+                    <div class="numbers numbers-powerball shadow-2xl m-2">
+                        <input 
+                            formControlName="ball" 
+                            class="rounded-full text-center numbers numbers-powerball outline-none"
+                            [ngClass]="{'numbers-megaball': selectedPlay() === play.MEGAMILLION}" 
+                            type="text">
+                    </div>
+
+                </div>
+
+                <div class="flex justify-center items-center mt-10">
+
+                    <div class="flex items-center mr-4">
+                        <input checked 
+                            id="2022-radio" 
+                            type="radio" 
+                            value="2022" 
+                            name="colored-radio" 
+                            (change)="onChange($event)"
+                            class="w-4 h-4 text-purple-600 bg-gray-100 
+                            border-gray-300 focus:ring-purple-500 
+                            dark:ring-offset-gray-800 
+                            dark:bg-gray-700 
+                            dark:border-gray-600"
+                        >
+                        <label 
+                            class="ml-2 text-sm font-medium 
+                            text-gray-900 dark:text-gray-300">
+                            2022
+                        </label>
+                    </div>
+                
+                    <div class="flex items-center mr-4">
+                        <input checked 
+                            id="2023-radio" 
+                            type="radio" 
+                            value="2023" 
+                            name="colored-radio" 
+                            (change)="onChange($event)"
+                            class="w-4 h-4 text-purple-600 bg-gray-100 
+                            border-gray-300 focus:ring-purple-500 
+                            dark:ring-offset-gray-800
+                            dark:bg-gray-700 
+                            dark:border-gray-600"
+                        >
+                        <label 
+                            class="ml-2 text-sm font-medium 
+                            text-gray-900 dark:text-gray-300">
+                            2023
+                        </label>
+                    </div>
+                   
+                </div>
+                
+
+            </form>
+
+            <div *ngIf="showImportBox">
+
+                <div *ngIf="!showlist"
+                    class="border-purple-300 
+                    border-2 p-3 rounded-full 
+                    mb-10 cursor-pointer">
+                    <a (click)="loadDrawings()"
+                        class="text-sm uppercase ml-2 
+                        hover:text-purple-800
+                        font-bold">load .json file
+                    </a>
+                </div>
+
+                <ng-container *ngIf="showlist">
+                    <div *ngFor="let data of resultsToImport(); let cnt = count; let i = index;"
+                        class="shadow-md bg-gray-100 
+                        hover:bg-gray-200 relative 
+                        p-2 mb-3">
+                        
+                        <div class="index-item flex 
+                            items-center justify-center 
+                            rounded-full p-1">
+                            <span class="font-bold">{{cnt - i}}</span>
+                        </div>
+                        <app-result-item [ball]="data.ball" [numbers]="data.numbers"/>
+                    </div>
+                </ng-container>
+                
+
+            </div>
+
+        </div>
+
+    </mat-dialog-content>
+
+    <mat-dialog-actions>
+        <div *ngIf="!showImportBox" 
+            class="mt-6 w-full">
+            <button (click)="addDraw()"
+                type="button" 
+                class="flex w-full justify-center 
+                rounded-md bg-indigo-600 px-3 py-3 
+                text-sm font-semibold leading-6 
+                text-white shadow-sm 
+                hover:bg-indigo-500 
+                focus-visible:outline 
+                focus-visible:outline-2 
+                focus-visible:outline-offset-2 
+                focus-visible:outline-indigo-600">
+                ADD DRAWING
+            </button>
+        </div>
+
+        <div *ngIf="showImportBox"
+            class="mt-6 w-full">
+            <button (click)="importDrawings()"
+                type="button" 
+                class="flex w-full justify-center 
+                rounded-md bg-indigo-600 px-3 py-3 
+                text-sm font-semibold leading-6 
+                text-white shadow-sm 
+                hover:bg-indigo-500 
+                focus-visible:outline 
+                focus-visible:outline-2 
+                focus-visible:outline-offset-2 
+                focus-visible:outline-indigo-600">
+                IMPORT DRAWINGS
+            </button>
+        </div>
+    </mat-dialog-actions>
+
+
+</div>

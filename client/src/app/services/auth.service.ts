@@ -1,9 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject, signal } from '@angular/core';
 import { LocalstoreService } from '../core/services/localstore.service';
-import { IAuthUser, IUser } from '../models/user.model';
+import { IAuthSuccessUser, IAuthUser, IUser } from '../models/user.model';
 import { map } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
+import { IResponseApi } from '~/models/utils.model';
+import { environment } from 'src/environments/environment.development';
+import { Helpers } from '~/core/utils/helpers';
 
 @Injectable({
   providedIn: 'root'
@@ -40,6 +43,31 @@ export class AuthService {
       return user;
     }));
   }
+
+  public auth_user(data: IAuthUser): Observable<IUser | any> {
+    return this._http.post<IResponseApi & { data: IAuthSuccessUser }>(`${environment.hostApi}/api/login`, data).pipe(map(response => {
+      if (response?.success) {
+        this._authUser.set(response.data.user);
+        this._saveUserDataInStorage(response.data.user, response.data.token);
+        return response.data.user;
+      } else {
+        this._removeUserFromStorage();
+        throw response.errors || 'error';
+      }
+    }));
+  }
+
+  public register_user_data(options: { data: IUser }): Observable<IUser> {
+    const formData = Helpers.appendDataToForm(options.data);
+    return this._http.post<IResponseApi>(`${environment.hostApi}/api/user`, formData).pipe(map(response => {
+      if (response?.success) {
+        return response.data;
+      } else {
+        throw response.message || 'error';
+      }
+    }));
+  }
+
 
   logout(): Observable<boolean> {
     try {

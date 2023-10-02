@@ -21,7 +21,7 @@ export class FiltersResultsComponent {
 
   changeFilter(value: EnumPeriod): void {
     this._filterService.updateFilterResult(value);
-   this._resultsService.updateResults(value);
+    this._resultsService.updateResults(value);
   }
 
 }

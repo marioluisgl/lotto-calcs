@@ -1,36 +1,37 @@
 <div class="grid place-items-center" [@enterOpacity]>
     <div class="grid grid-cols-1 md:grid-cols-2 mb-20 mt-10">
-        <div class="logo-card shadow-md bg-gray-50 
-            relative mt-10 md:mr-10 col-span-1 p-4
-            md:rounded-l-lg cursor-pointer"
-        >
-            <div class="flex-column-center w-64 h-32">
-                <a class="flex-column-center mb-3"
-                    [routerLink]="['/dashboard', 0]">
-                    <img [src]="'POWERBALL' | imageLogo" alt="logo">
-                </a>
-                <p class="text-sm italic font-bold text-red-500">click to see it.</p>
-            </div>
-        </div>
 
-        <div class="logo-card shadow-md bg-gray-50 
-            relative mt-10 md:ml-10 col-span-1 p-4 
-            md:rounded-r-lg cursor-pointer"        
-        >
-            <div class="flex-column-center w-64 h-32">
-                <a [routerLink]="['/dashboard', 1]" >
-                    <img [src]="'MEGAMILLION' | imageLogo" alt="logo">
-                </a>
-                <p class="text-sm italic font-bold text-blue-500">click to see it.</p>
+        <a [routerLink]="['/dashboard', 0]">
+            <div class="logo-card shadow-md bg-gray-50 
+                relative mt-10 md:mr-10 col-span-1 p-4
+                md:rounded-l-lg cursor-pointer"
+            >
+                <div class="flex-column-center w-64 h-32">
+                    <a class="flex-column-center mb-3">
+                        <img [src]="'POWERBALL' | imageLogo" alt="logo">
+                    </a>
+                    <p class="text-sm italic font-bold text-red-500">click to see it.</p>
+                </div>
             </div>
-        </div>
-
+        </a>
         
+
+        <a [routerLink]="['/dashboard', 1]" >
+            <div class="logo-card shadow-md bg-gray-50 
+                relative mt-10 md:ml-10 col-span-1 p-4 
+                md:rounded-r-lg cursor-pointer"        
+            >
+                <div class="flex-column-center w-64 h-32">
+                    <img [src]="'MEGAMILLION' | imageLogo" alt="logo">
+                    <p class="text-sm italic font-bold text-blue-500">click to see it.</p>
+                </div>
+            </div>
+        </a>
     </div>
 
     <div class="md:mt-20 xs:mt-10 relative">
-        <div class="flex-column-center cursor-pointer"
-            (click)="goToAdmin()">
+        <a class="flex-column-center cursor-pointer"
+            [routerLink]="['/login']">
             <mat-icon 
                 class="mdh-48
                 md-48 mr-1 
@@ -40,7 +41,7 @@
                 settings
             </mat-icon>
             <p class="text-sm text-gray-500 hover:text-orange-500">only for admins</p>
-        </div>
+        </a>
     </div>
 </div>
 

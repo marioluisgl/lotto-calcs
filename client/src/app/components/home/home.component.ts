@@ -32,12 +32,7 @@ export default class HomeComponent {
   private _resultsService = inject(LottoResultsService);
 
   constructor() {
-    this._resultsService.loadResults(EnumPlay.POWERBALL);
-  }
-
-
-  onChangeRadio($event) {
-    this._resultsService.loadResults($event.value);
+    this._resultsService.setSelectedPlay();
   }
 
   goToAdmin() {

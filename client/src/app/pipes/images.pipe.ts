@@ -20,13 +20,18 @@ export class ImageLogoPipe implements PipeTransform {
   constructor() {}
   transform(type: 'MEGAMILLION' | 'POWERBALL' | any ): string {
     let url!: string;
-    switch (type) {
-      case 'MEGAMILLION':
-        url = 'assets/images/megamillions.png';
-        break;
-      case 'POWERBALL':
-        url = 'assets/images/powerball.png';
-        break;
+
+    if (!type) {
+      url = null;
+    } else {
+      switch (type) {
+        case 'MEGAMILLION':
+          url = 'assets/images/megamillions.png';
+          break;
+        case 'POWERBALL':
+          url = 'assets/images/powerball.png';
+          break;
+      }
     }
     return url;
   }
