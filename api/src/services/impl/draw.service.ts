@@ -21,6 +21,19 @@ export class DrawService extends GlobalService implements IDrawService {
         }
     }
 
+    public async importDrawings(data: {draws: IDraw[]}): Promise<any> {
+        try {
+
+            data.draws.forEach(async (draw) => {
+                await this._save(draw);
+            });
+           
+            return await UtilGlobal.resolve({message: 'All Drawings has been imported succesfuly'});
+        } catch (err) {
+            return await UtilGlobal.reject(err);
+        }
+    }
+
     public getAllDrawings( query: any, paginator?: IPaginator): Promise<IPaginatorPlugin> {
         if (paginator) {
             return this._findWithPaginator(query, paginator);
@@ -30,6 +43,6 @@ export class DrawService extends GlobalService implements IDrawService {
     }
 
     getFullDrawings(query: any): Promise<IDraw[]> {
-        throw new Error('Method not implemented.');
+        return this._find(query, null, {});
     }
 }

@@ -20,7 +20,8 @@ export const AuthGuard: CanActivateFn = (
   try {
 
     const user: IUser = JSON.parse(handleLocalStorage.getItem('currentUser'));
-    const value = !!user.token;
+    const token: IUser = JSON.parse(handleLocalStorage.getItem('token'));
+    const value = !!user;
     
     if (!value) { requestAccess() }
     return of(value);

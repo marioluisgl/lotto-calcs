@@ -1,0 +1,9 @@
+.box-width {
+    width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+    .box-width {
+        width: 365px;
+    }
+}

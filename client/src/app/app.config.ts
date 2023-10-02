@@ -17,6 +17,7 @@ import { LanguageService } from './core/services/language.service';
 import { LocalstoreService } from './core/services/localstore.service';
 import { AuthInterceptor } from './core/auth/auth-nterceptor';
 import { FakeBackendInterceptor } from './core/utils/fake-backend';
+import { DateAdapter } from '@angular/material/core';
 
 registerLocaleData(localeEn, 'en');
 registerLocaleData(localeEs, 'es');
@@ -27,6 +28,10 @@ export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
 
 export function getLocalStorage() {
   return (typeof window !== 'undefined') ? window.localStorage : null;
+}
+
+export function CustomDateAdapter() {
+  
 }
 
 

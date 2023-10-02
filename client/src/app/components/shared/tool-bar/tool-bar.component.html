@@ -1,16 +1,19 @@
-<mat-toolbar color="primary" class="app-toolbar"
-  [ngClass]="{'app-toolbar-megaball': selectedPlay() === play.MEGAMILLION}">
+<mat-toolbar color="primary" class="app-toolbar app-toolbar-none"
+  [ngClass]="{
+    'app-toolbar-megaball': selectedPlay() === play.MEGAMILLION,
+    'app-toolbar-powerball': selectedPlay() === play.POWERBALL
+  }">
   <div class="logo" [@enterOpacity]>
     <a routerLink="/dashboard/main">
-      <img [src]="selectedPlay() | imageLogo" alt="logo">
+      <img [src]="selectedPlay() | imageLogo" alt="">
     </a>
   </div>
   
   <div class="flex-row--end">
-    <div *ngIf="authUser().id" class="flex-row--start">
-      <span class="text-base pr-2 font-bold display-none">{{authUser().name }}</span>
+    <div *ngIf="authUser()?._id" class="flex-row--start">
+      <span class="text-base pr-2 font-bold display-none">{{authUser()?.name }}</span>
       <div class="user-image">
-        <img [src]="authUser().gender | imageUser" 
+        <img [src]="authUser()?.gender | imageUser" 
           alt="user-image"
           class="image--small object-fit"
         />
