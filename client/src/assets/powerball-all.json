@@ -1,1278 +1,1647 @@
 {
   "results": [
     {
+      "numbers": [1, 7, 46, 47, 63],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 7
+    },
+    {
+      "numbers": [10, 12, 22, 36, 50],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 4
+    },
+    {
+      "numbers": [1, 12, 20, 33, 66],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 21
+    },
+    {
+      "numbers": [16, 27, 59, 62, 63],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 23
+    },
+    {
+      "numbers": [2, 21, 26, 40, 42],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 9
+    },
+    {
+      "numbers": [8, 11, 19, 24, 46],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 5
+    },
+    {
+      "numbers": [22, 30, 37, 44, 45],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 18
+    },
+    {
+      "numbers": [9, 25, 27, 53, 66],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 5
+    },
+    {
+      "numbers": [11, 19, 29, 63, 68],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 25
+    },
+    {
+      "numbers": [9, 14, 20, 23, 63],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 1
+    },
+    {
+      "numbers": [1, 26, 32, 46, 51],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 13
+    },
+    {
+      "numbers": [25, 38, 42, 66, 67],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 19
+    },
+    {
+      "numbers": [4, 13, 35, 61, 69],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 4
+    },
+    {
+      "numbers": [4, 6, 25, 55, 68],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 26
+    },
+    {
+      "numbers": [20, 22, 26, 28, 63],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 5
+    },
+    {
+      "numbers": [25, 30, 32, 33, 55],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 20
+    },
+    {
+      "numbers": [3, 4, 12, 22, 28],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 16
+    },
+    {
+      "numbers": [1, 25, 27, 38, 62],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 13
+    },
+    {
+      "numbers": [9, 11, 17, 19, 55],
+      "year": 2023,
+      "type": "POWERBALL",
+      "ball": 1
+    },
+    {
       "numbers": [32, 34, 37, 39, 47],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [19, 21, 37, 50, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [10, 15, 21, 67, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [6, 13, 20, 35, 54],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [18, 42, 44, 62, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [23, 24, 33, 51, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [2, 11, 48, 58, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [10, 25, 27, 34, 38],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [3, 16, 40, 48, 60],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [3, 4, 12, 28, 49],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [25, 27, 36, 37, 63],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [7, 10, 11, 13, 24],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [5, 8, 9, 17, 41],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 21
     },
     {
       "numbers": [2, 9, 43, 55, 57],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [23, 35, 45, 66, 67],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 20
     },
     {
       "numbers": [2, 24, 34, 53, 58],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [7, 23, 24, 32, 43],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [17, 24, 48, 62, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [15, 26, 31, 38, 61],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [4, 17, 35, 49, 61],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [19, 25, 34, 57, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [6, 28, 39, 43, 54],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [2, 38, 44, 50, 62],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 19
     },
     {
       "numbers": [5, 11, 33, 35, 63],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [36, 39, 52, 57, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [2, 12, 45, 61, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [3, 20, 36, 42, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [2, 3, 16, 23, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [21, 32, 42, 46, 50],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [16, 21, 29, 53, 66],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [2, 31, 45, 46, 49],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 20
     },
     {
       "numbers": [15, 45, 64, 67, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [2, 4, 54, 61, 62],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [21, 33, 35, 62, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [24, 38, 39, 48, 56],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [12, 21, 44, 50, 58],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [9, 38, 48, 52, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [17, 23, 32, 38, 63],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [18, 34, 37, 45, 51],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [1, 26, 28, 55, 58],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [3, 15, 20, 23, 46],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [21, 24, 33, 55, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [15, 20, 33, 36, 43],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [31, 39, 47, 51, 53],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [21, 26, 30, 45, 47],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [3, 38, 55, 61, 66],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [16, 53, 54, 57, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [2, 15, 30, 35, 49],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [19, 21, 55, 66, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [17, 36, 47, 63, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [4, 11, 21, 38, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [23, 25, 35, 63, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [1, 33, 34, 56, 59],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [9, 36, 41, 44, 59],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [9, 10, 36, 46, 52],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [11, 22, 24, 51, 60],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [3, 5, 9, 42, 52],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [16, 30, 31, 54, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [11, 19, 21, 29, 52],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [4, 9, 24, 46, 66],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [19, 26, 36, 43, 58],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [15, 17, 18, 47, 57],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 19
     },
     {
       "numbers": [27, 28, 37, 50, 57],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [1, 27, 32, 47, 67],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [14, 20, 30, 54, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [16, 18, 33, 37, 50],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [3, 10, 24, 46, 63],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [11, 20, 33, 43, 58],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [26, 27, 43, 61, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [2, 13, 29, 58, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [10, 16, 18, 40, 66],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [2, 9, 28, 36, 53],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [16, 28, 49, 51, 55],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [11, 24, 58, 66, 67],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [11, 19, 39, 44, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [3, 17, 26, 38, 54],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 15
     },
     {
       "numbers": [8, 21, 31, 32, 37],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [31, 32, 54, 60, 63],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [17, 26, 37, 61, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [10, 23, 30, 54, 65],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [52, 58, 59, 64, 66],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [5, 11, 22, 23, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [2, 8, 15, 19, 58],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [31, 43, 58, 59, 66],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [1, 4, 12, 36, 49],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [2, 18, 23, 27, 47],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 15
     },
     {
       "numbers": [9, 17, 20, 38, 40],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [12, 31, 47, 58, 60],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [5, 14, 19, 46, 64],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [6, 15, 22, 42, 47],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [4, 14, 33, 39, 61],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [24, 26, 39, 47, 57],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [4, 8, 46, 47, 48],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [18, 43, 48, 60, 69],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [35, 36, 44, 45, 67],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [12, 32, 56, 67, 68],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [7, 9, 12, 31, 62],
-      "year": "2023",
+      "year": 2023,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [18, 37, 44, 50, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [26, 32, 38, 45, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [17, 41, 47, 60, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [17, 37, 46, 54, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [12, 15, 24, 34, 59],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [7, 37, 55, 65, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [33, 56, 64, 66, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [36, 51, 59, 66, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [16, 31, 50, 55, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [9, 23, 47, 49, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 19
     },
     {
       "numbers": [6, 28, 44, 59, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 21
     },
     {
       "numbers": [35, 45, 47, 54, 55],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [6, 13, 33, 36, 37],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [4, 19, 24, 47, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [29, 30, 32, 48, 50],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 20
     },
     {
       "numbers": [15, 30, 47, 50, 51],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [1, 2, 31, 39, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [1, 6, 40, 51, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [7, 28, 62, 63, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [28, 34, 51, 53, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [19, 35, 53, 54, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 21
     },
     {
       "numbers": [16, 20, 44, 57, 58],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [7, 14, 24, 30, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [10, 33, 41, 47, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [28, 45, 53, 56, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 20
     },
     {
       "numbers": [2, 11, 22, 35, 60],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [13, 19, 36, 39, 59],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [19, 31, 40, 46, 57],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [19, 36, 37, 46, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [18, 23, 35, 45, 54],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [19, 25, 38, 55, 60],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [6, 8, 15, 27, 42],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [19, 30, 36, 46, 60],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [32, 37, 40, 58, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 15
     },
     {
       "numbers": [14, 30, 41, 42, 59],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [3, 6, 11, 17, 22],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [13, 43, 53, 60, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [26, 30, 33, 37, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [2, 16, 22, 55, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [8, 21, 22, 65, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [6, 10, 24, 33, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [13, 20, 31, 33, 59],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 20
     },
     {
       "numbers": [3, 9, 21, 24, 29],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [6, 33, 34, 45, 54],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [7, 15, 36, 46, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [5, 25, 36, 51, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [9, 10, 20, 22, 52],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [6, 14, 16, 34, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [38, 42, 56, 68, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [3, 16, 30, 33, 36],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 20
     },
     {
       "numbers": [4, 7, 32, 55, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [18, 27, 49, 65, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [7, 8, 19, 24, 28],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [13, 36, 43, 61, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [2, 18, 56, 60, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [6, 24, 35, 37, 44],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [12, 27, 34, 55, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [5, 9, 11, 16, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [23, 28, 41, 50, 55],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [20, 24, 47, 50, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [19, 24, 35, 43, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [29, 44, 59, 61, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 19
     },
     {
       "numbers": [32, 45, 51, 57, 58],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [8, 15, 46, 56, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [9, 21, 56, 57, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [15, 21, 31, 36, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [4, 17, 57, 58, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [1, 25, 44, 55, 57],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [25, 37, 38, 39, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [39, 41, 54, 59, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [10, 20, 23, 49, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [14, 34, 36, 50, 58],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [3, 18, 23, 32, 57],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 21
     },
     {
       "numbers": [22, 23, 36, 47, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [4, 26, 34, 37, 52],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [14, 22, 42, 46, 52],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [32, 36, 49, 62, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [15, 16, 24, 31, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [9, 10, 37, 59, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [8, 40, 49, 58, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [11, 13, 18, 30, 37],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [6, 12, 20, 27, 32],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [6, 10, 31, 48, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [3, 44, 61, 63, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [10, 19, 40, 45, 58],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [19, 28, 41, 42, 51],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [2, 27, 42, 44, 51],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 25
     },
     {
       "numbers": [18, 20, 26, 53, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [22, 39, 43, 62, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [2, 10, 35, 44, 46],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [14, 16, 36, 52, 60],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [11, 41, 56, 57, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [27, 28, 51, 68, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [2, 39, 50, 61, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 15
     },
     {
       "numbers": [19, 28, 39, 42, 57],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [1, 33, 37, 39, 42],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [14, 15, 25, 52, 58],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [40, 41, 58, 64, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [7, 15, 22, 36, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [6, 40, 41, 45, 52],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [5, 7, 61, 63, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [18, 30, 35, 52, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 5
     },
     {
       "numbers": [4, 5, 6, 28, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [37, 39, 55, 63, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 23
     },
     {
       "numbers": [18, 27, 33, 39, 44],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [14, 21, 37, 44, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 1
     },
     {
       "numbers": [11, 36, 61, 62, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [12, 18, 20, 39, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [10, 39, 47, 49, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [20, 30, 45, 55, 56],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [8, 33, 55, 59, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [15, 21, 32, 62, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [14, 16, 41, 63, 68],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [5, 7, 24, 31, 34],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 4
     },
     {
       "numbers": [6, 16, 31, 62, 66],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [6, 42, 45, 47, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [2, 32, 39, 46, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [6, 28, 47, 58, 59],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [3, 7, 21, 31, 37],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [11, 18, 39, 58, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [2, 10, 50, 59, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [31, 32, 37, 38, 48],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [1, 15, 26, 63, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [8, 9, 18, 48, 52],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [3, 28, 34, 35, 58],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [21, 28, 32, 44, 49],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 6
     },
     {
       "numbers": [19, 20, 37, 39, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 8
     },
     {
       "numbers": [13, 22, 34, 51, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [10, 43, 55, 59, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 2
     },
     {
       "numbers": [8, 23, 37, 52, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [19, 37, 48, 61, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 12
     },
     {
       "numbers": [7, 21, 39, 47, 55],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 19
     },
     {
       "numbers": [15, 32, 36, 48, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 19
     },
     {
       "numbers": [6, 17, 21, 35, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [2, 36, 37, 45, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 3
     },
     {
       "numbers": [3, 10, 15, 33, 42],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [22, 30, 40, 42, 48],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [16, 25, 27, 49, 55],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [8, 10, 21, 41, 62],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     },
     {
       "numbers": [2, 17, 33, 51, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 26
     },
     {
       "numbers": [5, 15, 38, 47, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [5, 16, 27, 39, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [18, 29, 33, 62, 63],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 15
     },
     {
       "numbers": [10, 15, 51, 61, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 18
     },
     {
       "numbers": [15, 32, 36, 48, 64],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 14
     },
     {
       "numbers": [2, 15, 38, 54, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 11
     },
     {
       "numbers": [4, 11, 38, 49, 69],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [11, 29, 30, 47, 53],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 16
     },
     {
       "numbers": [8, 14, 33, 36, 67],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [11, 15, 43, 55, 61],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 10
     },
     {
       "numbers": [9, 24, 35, 46, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [3, 18, 37, 51, 59],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [12, 21, 22, 30, 33],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 24
     },
     {
       "numbers": [14, 17, 18, 21, 27],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 9
     },
     {
       "numbers": [20, 21, 36, 60, 65],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 13
     },
     {
       "numbers": [6, 14, 25, 33, 46],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 17
     },
     {
       "numbers": [2, 13, 32, 33, 48],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 22
     },
     {
       "numbers": [6, 12, 39, 48, 50],
-      "year": "2022",
+      "year": 2022,
+      "type": "POWERBALL",
       "ball": 7
     }
   ]

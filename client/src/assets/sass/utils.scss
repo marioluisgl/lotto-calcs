@@ -27,6 +27,10 @@ $md-list: 8, 12, 14, 16, 18, 20, 22, 24, 28, 30, 34, 36, 48, 60;
   .md-#{$md} {
     @include create-md(#{$md}px);
   }
+
+  .mdh-#{$md}:hover {
+    @include create-md(#{$md+10}px);
+  }
 }
 
 $d-list: 0, 5;
@@ -59,6 +63,10 @@ $d-list: 0, 5;
   color: $colorIce;
 }
 
+.c-white {
+  color: $colorWhite;
+}
+
 // temp mat-badges styles
 .mat-badge-medium.mat-badge-overlap.mat-badge-after .mat-badge-content {
   right: -40px;
@@ -79,8 +87,8 @@ $d-list: 0, 5;
 .index-item {
   width: 35px;
   height: 35px;
-  position: absolute;
-  bottom: 150px;
+  // position: absolute;
+  // bottom: 150px;
   display: flex;
   justify-content: center;
   align-items: center;

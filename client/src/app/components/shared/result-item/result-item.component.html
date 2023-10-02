@@ -1,10 +1,10 @@
 <div class="flex justify-center">
     <ng-container *ngFor="let number of numbers">
-        <div class="rounded-full p-5 m-5 numbers numbers-white shadow-2xl">
+        <div class="rounded-full p-5 md:m-2 m-1 numbers numbers-white shadow-2xl">
             <span>{{number}}</span>
         </div>
     </ng-container>
-    <div class="rounded-full p-5 m-5 numbers numbers-powerball"
+    <div class="rounded-full p-5 md:m-2 m-1 numbers numbers-powerball"
         [ngClass]="{'numbers-megaball': selectedPlay() === play.MEGAMILLION}">
         <span class="flex ">{{ball}}</span>
     </div>

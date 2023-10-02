@@ -97,7 +97,7 @@ export abstract class GlobalService {
   }
 
   protected _find(query: any, select?: any, options?: any, populate?: any): Promise<any> {
-    return this._model.find(query, select, options).populate(populate ? populate : this._populate) as unknown as Promise<any>;
+    return this._model.find(query, select, options).sort({_id: -1}).populate(populate ? populate : this._populate) as unknown as Promise<any>;
   }
 
   protected _findOne(data: any, select?: string, populate?: string[] | {}, options?: IMongooseOptions): Promise<mongoose.Schema | any> {

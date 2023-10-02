@@ -1,0 +1,39 @@
+
+<!-- only show this if user admin -->
+<div *ngIf="authUser() && authUser()?.role === enumRole.ADMIN"
+    class="relative flex justify-center items-center bg-gray-50 p-2 md:rounded-lg">
+    <div>
+        <span class="text-yellow-400 text-base font-bold">MEGAMILLION</span>
+        <mat-radio-button 
+            [value]="'MEGAMILLION'" 
+            (change)="onChangeRadio($event)"
+            [checked]="play === enumPlay.MEGAMILLION">
+        </mat-radio-button>
+    </div>
+    <mat-divider [vertical]="true" class="divider"></mat-divider>
+    <div>
+        <mat-radio-button 
+            [value]="'POWERBALL'" 
+            (change)="onChangeRadio($event)" 
+            [checked]="play === enumPlay.POWERBALL"></mat-radio-button>
+        <span class="text-red-800 text-base font-bold">POWERBALL</span>
+    </div>
+</div>
+
+
+<div class="grid grid-cols-1 md:grid-cols-3 " [@enterOpacity]>
+    <div class="shadow-md bg-gray-50 
+        relative m-1 col-span-2 p-2 
+        md:rounded-l-lg"
+    >
+        <app-powerball-results />
+    </div>
+
+    <div class="shadow-md bg-gray-50 
+        relative m-1 col-span-1 p-2 
+        md:rounded-r-lg"        
+    >
+        <app-metrics />
+    </div>
+</div>
+

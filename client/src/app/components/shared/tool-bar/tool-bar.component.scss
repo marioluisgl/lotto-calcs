@@ -5,6 +5,10 @@
     position: absolute;
     z-index: 1;
 
+    &-none {
+        background-color: #efdebd;;
+    }
+
     &-powerball {
         background-color: #673ab7;
     }

@@ -2,13 +2,21 @@
     <div class="flex items-center">
         <mat-icon class="md-28 mr-1 c-red">calendar_month</mat-icon>
         <span *ngIf="selectedPlay() && selectedPlay() === play.POWERBALL" 
-            class="text-purple-800 uppercase font-bold">{{'Labels.powerball' | translate}}</span>
+            class="text-purple-800 uppercase font-bold">results</span>
         <span *ngIf="selectedPlay() && selectedPlay() === play.MEGAMILLION" 
-            class="text-purple-800 uppercase font-bold">{{'Labels.megamillion' | translate}}</span>
+            class="text-purple-800 uppercase font-bold">results</span>
     </div>
-    <div>
-        <span class="text-normal italic font-bold pr-5">{{'Labels.updated' | translate}}: </span>
-        <span class="text-normal uppercase font-bold">AUG 15 2023</span>
+    <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center">
+            <span class="text-xs italic font-bold pr-5">{{'Labels.updated' | translate}}: </span>
+            <span class="text-xs uppercase font-bold">{{results()[0]?.created_at | date }}</span>
+        </div>
+        <div *ngIf="authUser() && authUser()?.role === enumRole.ADMIN"
+            class="flex justify-center items-center ml-6 cursor-pointer"
+            (click)="addDraw()">
+            <span class="text-normal text-gray-500 font-bold hover:text-purple-800 uppercase">Add Draw</span>
+            <mat-icon class="md-24 ml-1 c-white bg-purple-900 rounded-full"> add </mat-icon>
+        </div>
     </div>
    
 </div>
@@ -24,27 +32,28 @@
         relative"
     >
     
-            <div class="flex justify-center pt-2">
-                <p matBadge="{{totalResults()}}" matBadgeSize="medium" class="font-bold uppercase">
-                    Total
-                </p>
-            </div>
-            <ng-container *ngIf="results().length; else noResults">
-                <div *ngFor="let data of results(); let cnt = count; let i = index;"
-                    class="shadow-md bg-gray-100 hover:bg-gray-200 relative m-1 p-2 mb-3">
-                    <div class="p-1 index-item flex 
-                        items-center 
-                        justify-center rounded-full 
-                        md:absolute">
-                        <span class="font-bold">{{cnt - i}}</span>
-                    </div>
-                    <app-result-item [ball]="data.ball" [numbers]="data.numbers"/>
-                </div>
-            </ng-container>
+        <div class="flex justify-center pt-2">
+            <p matBadge="{{totalResults()}}" matBadgeSize="medium" class="font-bold uppercase">
+                Total
+            </p>
+        </div>
+        <ng-container *ngIf="results().length; else noResults">
             
-            <ng-template #noResults>
-                <h3 class="text-md italic text-center">There is not results!</h3>
-            </ng-template>
+            <div *ngFor="let data of results(); let cnt = count; let i = index;"
+                class="shadow-md bg-gray-100 hover:bg-gray-200 relative m-1 p-2 mb-3">
+                
+                <div class="index-item flex 
+                    items-center justify-center 
+                    rounded-full p-1">
+                    <span class="font-bold">{{cnt - i}}</span>
+                </div>
+                <app-result-item [ball]="data.ball" [numbers]="data.numbers"/>
+            </div>
+        </ng-container>
+        
+        <ng-template #noResults>
+            <h3 class="text-md italic text-center">There is not results!</h3>
+        </ng-template>
 
     </div>
 </ng-container>
